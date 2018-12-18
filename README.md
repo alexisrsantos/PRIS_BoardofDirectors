@@ -1,5 +1,5 @@
 # Introduction
-Here I provide the data and code for replicating my visualization of board of directors for the Puerto Rico Institute of Statistics data.
+Here I provide the data and code for replicating my visualization of Sex, Education, and Representation Sector board of directors for the Puerto Rico Institute of Statistics data.
 
 # Organization 
 1. Code includes the code required to produce the analytical datasets to produce both figures. 
@@ -39,5 +39,3 @@ For any issues or if you find a mistake in the dataset please [create an issue](
 
 # Metadata
 This repository is managed by [Dr. Alexis R. Santos](https://scholar.google.com/citations?user=oPZ-RDgAAAAJ&hl=en). 
-
-
