@@ -11,7 +11,7 @@ Here I provide the data and code for replicating my visualization of board of di
 * Please cite if you use of the code or data (It's called manners). 
 
 # Data
-I produced this datasets with the information available in newspapers and the website of the (Senate of Puerto Rico)[https://senado.pr.gov/]. Some dates may be wrong! Below, I indicate how you can tell me to change this. 
+I produced this datasets with the information available in newspapers and the website of the [Senate of Puerto Rico](https://senado.pr.gov/). Some dates may be wrong! Below, I indicate how you can tell me to change this. 
 
 # Codebook
 This is a long form dataset. 
