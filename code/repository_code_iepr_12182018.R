@@ -48,10 +48,11 @@ a<- ggplot(data2,aes(x=Date,y=reorder(Initials,-Rank),shape=Sex,group=Education,
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+ 
   geom_line(aes(group=Initials,linetype=Gov_Officer),size=1)+  theme(legend.position="bottom")+
   geom_vline(data=data2,aes(xintercept=as.Date("2009-01-30")),colour="blue",size=1.20)+
+  geom_vline(data=data2,aes(xintercept=as.Date("2004-01-30")),colour="red",size=1.20)+
   geom_vline(data=data2,aes(xintercept=as.Date("2013-01-30")),colour="red",size=1.20)+
   geom_vline(data=data2,aes(xintercept=as.Date("2017-01-30")),colour="blue",size=1.20)+
   geom_vline(data=data2,aes(xintercept=as.Date("2005-01-30")),colour="red",size=1.20)+
-  labs(title = "Members of the PRIS Board of Directors", subtitle = "Education (Line color), Sex (Shape of Point), Time of Service (length of segment), and Government Representative (Segment type)", y = "Initials of Member of the Board", x ="Date",
+  labs(y = "Initials of Member of the Board", x ="Date",
   linetype="Government Appointee",point="Sex",group="Education")+
   scale_x_date(date_breaks = "1 year")
 
@@ -93,7 +94,7 @@ c<-ggplot(data2,aes(x=Date,y=reorder(Initials,-Rank),shape=Sex,group=Education,c
 
 c #Show it
 
-#Figurw 1, by Government Representative
+#Figure 1, by Government Representative
 d<-ggplot(data2,aes(x=Date,y=reorder(Initials,-Rank),shape=Sex,group=Education,color=Education))+
   geom_point(size=4)+  theme_classic()+
   theme(axis.text.x = element_text(angle = 90, hjust = 1))+ 
